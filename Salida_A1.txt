@@ -1,0 +1,122 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.16 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 5280 rows and 0 columns.
+MIP Presolve modified 1164 coefficients.
+Aggregator did 246 substitutions.
+Reduced MIP has 1698 rows, 4590 columns, and 121692 nonzeros.
+Reduced MIP has 4542 binaries, 48 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (97.99 ticks)
+Probing time = 0.03 sec. (9.09 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1698 rows, 4590 columns, and 121692 nonzeros.
+Reduced MIP has 4542 binaries, 48 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (102.31 ticks)
+Probing time = 0.02 sec. (8.02 ticks)
+Clique table members: 60629.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.06 sec. (79.53 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   1.50165e+09              --- 
+      0     0   5.00517e+07    79        0.0000   5.00517e+07      565     --- 
+*     0+    0                       5.00460e+07   5.00517e+07             0.01%
+      0     0   5.00517e+07    67   5.00460e+07      Cuts: 75      793    0.01%
+      0     0   5.00517e+07    99   5.00460e+07      Cuts: 59     1110    0.01%
+      0     0   5.00515e+07    92   5.00460e+07      Cuts: 60     1330    0.01%
+      0     0   5.00515e+07    81   5.00460e+07      Cuts: 82     1511    0.01%
+      0     0   5.00515e+07    69   5.00460e+07      Cuts: 67     1665    0.01%
+
+GUB cover cuts applied:  16
+Clique cuts applied:  29
+Cover cuts applied:  90
+Mixed integer rounding cuts applied:  59
+Zero-half cuts applied:  30
+Gomory fractional cuts applied:  12
+
+Root node processing (before b&c):
+  Real time             =    0.81 sec. (944.57 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.81 sec. (944.57 ticks)
+Funcion objetivo:  50046000.0
+Status solucion:  integer optimal, tolerance (102)
+X_0_7_4_1: 1.0
+X_1_7_4_1: 1.0
+X_2_7_4_1: 1.0
+X_4_7_4_1: 1.0
+X_5_7_4_1: 1.0
+X_6_7_4_1: 1.0
+X_7_7_4_1: 1.0
+X_8_7_4_1: 1.0
+X_9_7_4_1: 1.0
+X_10_0_0_0: 1.0
+X_10_1_1_3: 1.0
+X_10_2_1_4: 1.0
+X_10_4_1_1: 1.0
+X_10_6_3_0: 1.0
+X_10_7_4_1: 1.0
+X_10_9_0_1: 1.0
+X_10_10_2_1: 1.0
+X_10_11_4_0: 1.0
+X_11_3_4_4: 1.0
+X_11_4_1_1: 1.0
+X_11_5_5_0: 1.0
+X_11_7_4_1: 1.0
+X_11_8_0_0: 1.0
+X_11_10_2_1: 1.0
+D_0_4: 1.0
+D_1_4: 1.0
+D_2_4: 1.0
+D_4_4: 1.0
+D_5_4: 1.0
+D_6_4: 1.0
+D_7_4: 1.0
+D_8_4: 1.0
+D_9_4: 1.0
+D_10_0: 1.0
+D_10_1: 1.0
+D_10_2: 1.0
+D_10_3: 1.0
+D_10_4: 1.0
+D_11_0: 1.0
+D_11_1: 1.0
+D_11_2: 1.0
+D_11_4: 1.0
+D_11_5: 1.0
+R_0_0_0: 1.0
+R_1_1_3: 1.0
+R_2_1_4: 1.0
+R_3_4_4: 1.0
+R_4_1_1: 1.0
+R_5_5_0: 1.0
+R_6_3_0: 1.0
+R_7_4_1: 1.0
+R_8_0_0: 1.0
+R_9_0_1: 1.0
+R_10_2_1: 1.0
+R_11_4_0: 1.0
+W_10_0: 1.0
+W_11_0: 1.0
+N_0_0: 1.0
+N_1_0: 1.0
+N_2_0: 1.0
+N_4_0: 1.0
+N_5_0: 1.0
+N_6_0: 1.0
+N_7_0: 1.0
+N_8_0: 1.0
+N_9_0: 1.0
+N_10_0: 5.0
+N_10_1: 4.0
+N_11_0: 5.0
+N_11_1: 1.0

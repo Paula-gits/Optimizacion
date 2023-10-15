@@ -1,0 +1,151 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.18 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 4870 rows and 450 columns.
+MIP Presolve modified 1085 coefficients.
+Aggregator did 360 substitutions.
+Reduced MIP has 1786 rows, 4655 columns, and 59452 nonzeros.
+Reduced MIP has 4635 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (85.02 ticks)
+Probing time = 0.00 sec. (6.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1786 rows, 4655 columns, and 59452 nonzeros.
+Reduced MIP has 4635 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (53.76 ticks)
+Probing time = 0.00 sec. (5.65 ticks)
+Clique table members: 30291.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.03 sec. (64.88 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000  6000030.0000              --- 
+      0     0   141000.0000    54        0.0000   141000.0000      688     --- 
+*     0+    0                       141000.0000   141000.0000             0.00%
+      0     0        cutoff         141000.0000   141000.0000      688    0.00%
+Elapsed time = 0.30 sec. (369.00 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.31 sec. (369.21 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.31 sec. (369.21 ticks)
+Funcion objetivo:  141000.0
+Status solucion:  integer optimal solution (101)
+X_0_2_5_2: 1.0
+X_0_6_0_4: 1.0
+X_0_7_1_3: 1.0
+X_0_11_3_2: 1.0
+X_0_13_2_1: 1.0
+X_0_19_0_0: 1.0
+X_0_22_5_4: 1.0
+X_0_25_1_2: 1.0
+X_0_27_1_4: 1.0
+X_0_28_1_0: 1.0
+X_1_4_4_0: 1.0
+X_1_5_5_4: 1.0
+X_1_6_0_4: 1.0
+X_1_9_3_3: 1.0
+X_1_14_0_2: 1.0
+X_1_15_1_1: 1.0
+X_1_17_1_2: 1.0
+X_1_18_4_1: 1.0
+X_1_24_4_2: 1.0
+X_1_29_4_4: 1.0
+X_2_1_5_1: 1.0
+X_2_3_3_1: 1.0
+X_2_6_0_4: 1.0
+X_2_7_1_3: 1.0
+X_2_9_3_3: 1.0
+X_2_10_0_1: 1.0
+X_2_12_2_0: 1.0
+X_2_19_0_0: 1.0
+X_2_20_1_0: 1.0
+X_2_21_5_2: 1.0
+X_3_1_5_1: 1.0
+X_3_6_0_4: 1.0
+X_3_8_5_3: 1.0
+X_3_11_3_2: 1.0
+X_3_17_1_2: 1.0
+X_3_20_1_0: 1.0
+X_3_21_5_2: 1.0
+X_3_23_3_4: 1.0
+X_3_27_1_4: 1.0
+X_3_29_4_4: 1.0
+X_4_3_3_1: 1.0
+X_4_6_0_4: 1.0
+X_4_10_0_1: 1.0
+X_4_13_2_1: 1.0
+X_4_23_3_4: 1.0
+D_0_0: 1.0
+D_0_1: 1.0
+D_0_2: 1.0
+D_0_3: 1.0
+D_0_5: 1.0
+D_1_0: 1.0
+D_1_1: 1.0
+D_1_3: 1.0
+D_1_4: 1.0
+D_1_5: 1.0
+D_2_0: 1.0
+D_2_1: 1.0
+D_2_2: 1.0
+D_2_3: 1.0
+D_2_5: 1.0
+D_3_0: 1.0
+D_3_1: 1.0
+D_3_3: 1.0
+D_3_4: 1.0
+D_3_5: 1.0
+D_4_0: 1.0
+D_4_2: 1.0
+D_4_3: 1.0
+R_1_5_1: 1.0
+R_2_5_2: 1.0
+R_3_3_1: 1.0
+R_4_4_0: 1.0
+R_5_5_4: 1.0
+R_6_0_4: 1.0
+R_7_1_3: 1.0
+R_8_5_3: 1.0
+R_9_3_3: 1.0
+R_10_0_1: 1.0
+R_11_3_2: 1.0
+R_12_2_0: 1.0
+R_13_2_1: 1.0
+R_14_0_2: 1.0
+R_15_1_1: 1.0
+R_17_1_2: 1.0
+R_18_4_1: 1.0
+R_19_0_0: 1.0
+R_20_1_0: 1.0
+R_21_5_2: 1.0
+R_22_5_4: 1.0
+R_23_3_4: 1.0
+R_24_4_2: 1.0
+R_25_1_2: 1.0
+R_27_1_4: 1.0
+R_28_1_0: 1.0
+R_29_4_4: 1.0
+W_0_0: 1.0
+W_1_0: 1.0
+W_2_0: 1.0
+W_3_0: 1.0
+W_4_0: 1.0
+N_0_0: 5.0
+N_0_1: 5.0
+N_1_0: 5.0
+N_1_1: 5.0
+N_2_0: 5.0
+N_2_1: 5.0
+N_3_0: 5.0
+N_3_1: 5.0
+N_4_0: 5.0

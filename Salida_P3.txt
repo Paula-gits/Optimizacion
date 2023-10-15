@@ -1,0 +1,85 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.14 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 4100 rows and 0 columns.
+MIP Presolve modified 1270 coefficients.
+Aggregator did 264 substitutions.
+Reduced MIP has 1918 rows, 3826 columns, and 87452 nonzeros.
+Reduced MIP has 3786 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (65.19 ticks)
+Probing time = 0.02 sec. (10.74 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1918 rows, 3826 columns, and 87452 nonzeros.
+Reduced MIP has 3786 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (70.53 ticks)
+Probing time = 0.02 sec. (10.34 ticks)
+Clique table members: 43984.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.03 sec. (63.29 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000  1800000.0000              --- 
+      0     0    44000.0000    39        0.0000    44000.0000      565     --- 
+*     0+    0                        43800.0000    44000.0000             0.46%
+*     0+    0                        44000.0000    44000.0000             0.00%
+      0     0        cutoff          44000.0000    44000.0000      565    0.00%
+Elapsed time = 0.33 sec. (476.64 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.33 sec. (476.82 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.33 sec. (476.82 ticks)
+Funcion objetivo:  44000.0
+Status solucion:  integer optimal solution (101)
+X_1_7_3_0: 1.0
+X_2_9_3_2: 1.0
+X_2_10_3_3: 1.0
+X_3_5_3_0: 1.0
+X_3_6_5_4: 1.0
+X_3_8_3_1: 1.0
+X_3_10_3_3: 1.0
+X_5_2_0_2: 1.0
+X_5_4_0_4: 1.0
+X_6_0_0_0: 1.0
+X_6_1_0_1: 1.0
+X_6_7_3_0: 1.0
+X_6_11_3_4: 1.0
+X_9_2_0_2: 1.0
+X_9_3_0_3: 1.0
+X_9_4_0_4: 1.0
+D_1_3: 1.0
+D_2_3: 1.0
+D_3_3: 1.0
+D_3_5: 1.0
+D_5_0: 1.0
+D_6_0: 1.0
+D_6_3: 1.0
+D_9_0: 1.0
+R_0_0_0: 1.0
+R_1_0_1: 1.0
+R_2_0_2: 1.0
+R_3_0_3: 1.0
+R_4_0_4: 1.0
+R_5_3_0: 1.0
+R_6_5_4: 1.0
+R_7_3_0: 1.0
+R_8_3_1: 1.0
+R_9_3_2: 1.0
+R_10_3_3: 1.0
+R_11_3_4: 1.0
+N_1_0: 1.0
+N_2_0: 2.0
+N_3_0: 4.0
+N_5_0: 2.0
+N_6_0: 4.0
+N_9_0: 3.0

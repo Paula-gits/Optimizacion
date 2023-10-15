@@ -1,0 +1,75 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.12 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 3800 rows and 0 columns.
+MIP Presolve modified 970 coefficients.
+Aggregator did 276 substitutions.
+Reduced MIP has 1328 rows, 3154 columns, and 73076 nonzeros.
+Reduced MIP has 3114 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (61.91 ticks)
+Probing time = 0.02 sec. (7.17 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1328 rows, 3154 columns, and 73076 nonzeros.
+Reduced MIP has 3114 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (62.98 ticks)
+Probing time = 0.02 sec. (6.87 ticks)
+Clique table members: 35882.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.06 sec. (25.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000  1500000.0000              --- 
+*     0     0      integral     0    40000.0000    40000.0000      141    0.00%
+Elapsed time = 0.19 sec. (191.04 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (191.17 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (191.17 ticks)
+Funcion objetivo:  40000.0
+Status solucion:  integer optimal solution (101)
+X_0_3_1_3: 1.0
+X_0_8_4_0: 1.0
+X_0_9_0_2: 1.0
+X_5_1_0_0: 1.0
+X_5_5_5_2: 1.0
+X_6_6_2_4: 1.0
+X_7_0_3_4: 1.0
+X_7_4_3_2: 1.0
+X_8_7_5_0: 1.0
+X_9_2_0_1: 1.0
+D_0_0: 1.0
+D_0_1: 1.0
+D_0_4: 1.0
+D_5_0: 1.0
+D_5_5: 1.0
+D_6_2: 1.0
+D_7_3: 1.0
+D_8_5: 1.0
+D_9_0: 1.0
+R_0_3_4: 1.0
+R_1_0_0: 1.0
+R_2_0_1: 1.0
+R_3_1_3: 1.0
+R_4_3_2: 1.0
+R_5_5_2: 1.0
+R_6_2_4: 1.0
+R_7_5_0: 1.0
+R_8_4_0: 1.0
+R_9_0_2: 1.0
+N_0_0: 3.0
+N_5_0: 2.0
+N_6_0: 1.0
+N_7_0: 2.0
+N_8_0: 1.0
+N_9_0: 1.0
